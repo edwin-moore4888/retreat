@@ -1,8 +1,20 @@
+@font-face {
+    font-family: 'From the Woods';
+    src: url('FromtheWoods-Regular.woff2') format('woff2'),
+        url('FromtheWoods-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 h1 {
     text-align: center;
+    font-family: "From the Woods";
+    font-size: 100px;
 }
 
 body {
+    margin: 0;
     background-image: url("bg.jpg");
     background-repeat: repeat-x
     ;
@@ -13,6 +25,7 @@ h3
   {
     color: #FFFFFF;
 }
+
 
 .desctription p {
     color: #D3D3D3;
@@ -27,21 +40,19 @@ h3
     width: 300px;
     overflow: none;
     text-align: center;
-    line-height: 30px;
 
 }
 
 
 h3 {
     text-align: center;
-    line-height: 30px;
 }
 
-.paragraph1
- {
+.paragraph1 {
     color: #FFFFFF;
     margin-left: 400px;
     margin-right: 400px;
+    font-size: 20px;
 
 }
 
@@ -53,22 +64,23 @@ h3 {
 
 .circle1 {
     position: relative;
-    left: 450px;
+    left: 425px;
     top: 150px
 }
 
 .circle2 {
     position: relative;
-    left: 800px;
+    left: 750px;
 }
 
 .circle3 {
     position: relative;
-    left: 450px;
+    left: 425px;
     bottom: 120px;
 }
 
 footer {
     background-color: #2D4823;
     color: #D3D3D3;
+    height: 300px;
 }
