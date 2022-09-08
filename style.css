@@ -1,3 +1,74 @@
 h1 {
     text-align: center;
 }
+
+body {
+    background-image: url("bg.jpg");
+    background-repeat: repeat-x
+    ;
+}
+
+h1,
+h3
+  {
+    color: #FFFFFF;
+}
+
+.desctription p {
+    color: #D3D3D3;
+    
+}
+
+.description {
+    background-color: #4F6A13;
+    padding: 10px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    overflow: none;
+    text-align: center;
+    line-height: 30px;
+
+}
+
+
+h3 {
+    text-align: center;
+    line-height: 30px;
+}
+
+.paragraph1
+ {
+    color: #FFFFFF;
+    margin-left: 400px;
+    margin-right: 400px;
+
+}
+
+.description p {
+    color: #D3D3D3;
+    padding: 20px;
+}
+
+
+.circle1 {
+    position: relative;
+    left: 450px;
+    top: 150px
+}
+
+.circle2 {
+    position: relative;
+    left: 800px;
+}
+
+.circle3 {
+    position: relative;
+    left: 450px;
+    bottom: 120px;
+}
+
+footer {
+    background-color: #2D4823;
+    color: #D3D3D3;
+}
